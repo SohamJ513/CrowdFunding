@@ -1,0 +1,62 @@
+/* Register.css */
+
+form {
+  max-width: 400px; /* Limit the width of the form */
+  margin: 0 auto; /* Center the form on the page */
+  padding: 20px; /* Add some padding */
+  border: 1px solid #ccc; /* Border around the form */
+  border-radius: 5px; /* Rounded corners */
+  background-color: #f9f9f9; /* Light background color */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%; /* Full width inputs */
+  padding: 10px; /* Padding for inputs */
+  margin: 10px 0; /* Margin between inputs */
+  border: 1px solid #ccc; /* Border for inputs */
+  border-radius: 4px; /* Rounded corners */
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+label {
+  display: flex; /* Change to flex display */
+  align-items: center; /* Align items vertically centered */
+  margin: 10px 0; /* Margin for labels */
+}
+
+.role-selection {
+  display: flex; /* Use flex to align radio buttons */
+  justify-content: space-between; /* Space between the buttons */
+  margin: 15px 0; /* Space between input fields and role selection */
+}
+
+button {
+  width: 100%; /* Full width button */
+  padding: 10px; /* Padding for button */
+  background-color: #4CAF50; /* Green background */
+  color: white; /* White text */
+  border: none; /* Remove border */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 16px; /* Font size for button */
+}
+
+button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+p {
+  margin-top: 10px; /* Margin above messages */
+  font-size: 14px; /* Font size for messages */
+}
+
+p.success {
+  color: green; /* Green color for success messages */
+}
+
+p.error {
+  color: red; /* Red color for error messages */
+}
